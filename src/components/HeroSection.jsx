@@ -2,6 +2,7 @@
 
 import Image from 'next/image'
 import React from 'react'
+import Link from 'next/link'
 import { TypeAnimation } from 'react-type-animation'
 
 const HeroSection = () => {
@@ -33,8 +34,12 @@ const HeroSection = () => {
                         Full Stack Developer with expertise in the MERN stack possesses a comprehensive skill set to develop end-to-end web applications, from frontend UI/UX design to backend server-side logic and database management. With proficiency in MongoDB, Express.js, React.js, and Node.js, they play a crucial role in driving innovation and delivering impactful solutions in the rapidly evolving landscape of web development.
                     </p>
                     <div>
-                        <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-gray-500 hover:bg-slate-200'>Hire Me</button>
-                        <button className='px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-gray-500 hover:bg-slate-800 text-white mt-3'><span className='block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2'>Donwload CV</span></button>
+                        <Link href="contacts">
+                            <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-gray-500 hover:bg-slate-200'>Hire Me</button>
+                        </Link>
+                        <Link href="/Sandeep-Kumar-Resume.pdf" target="_blank">
+                            <button className='px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-gray-500 hover:bg-slate-800 text-white mt-3'><span className='block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2'>Donwload CV</span></button>
+                        </Link>
                     </div>
                 </div>
                 <div className='col-span-5 place-self-center mt-4 lg:mt-0'>
