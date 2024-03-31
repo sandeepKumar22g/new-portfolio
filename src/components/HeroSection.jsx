@@ -30,7 +30,7 @@ const HeroSection = () => {
 
                     </h1>
                     <p className='text-[#ADB7BE] text-base sm:text-lg lg:text-xl mb-6'>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit est repellat aspernatur autem minima expedita assumenda aperiam, officiis vel voluptates molestiae? Ex, nesciunt! Numquam voluptatibus nihil aperiam officiis nemo ut?
+                        Full Stack Developer with expertise in the MERN stack possesses a comprehensive skill set to develop end-to-end web applications, from frontend UI/UX design to backend server-side logic and database management. With proficiency in MongoDB, Express.js, React.js, and Node.js, they play a crucial role in driving innovation and delivering impactful solutions in the rapidly evolving landscape of web development.
                     </p>
                     <div>
                         <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-gray-500 hover:bg-slate-200'>Hire Me</button>
