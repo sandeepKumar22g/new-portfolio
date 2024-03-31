@@ -52,10 +52,8 @@ const About = () => {
             id: "experience",
             content: (
                 <ul className='list-disc pl-4'>
-                    <li>MERN Stack</li>
-                    <li>AWS Cloud Practitioner</li>
-                    <li>Networking(CCNA & MCITP)</li>
-                    <li>Embedded Systems</li>
+                    <li>Assist. Tariner at TCIL-IT Chandigarh (09/2021 - 02/2022)</li>
+                    <li>MERN Stack developer at Bepoj Technpolgy (03/2022 - current)</li>
                 </ul>
             )
         },
@@ -73,7 +71,7 @@ const About = () => {
                 <Image src="/about-image.png" alt="about section image" width={550} height={500} className='hidden md:block' />
                 <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
                     <h2 className='text-4xl font-bold text-white mb-4'>About Me</h2>
-                    <p className='text-base lg:text-lg'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At necessitatibus natus hic mollitia nostrum officiis, eveniet optio. Libero saepe est eum minima autem esse, commodi at, adipisci ipsa, quae ullam! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo exercitationem praesentium aperiam, at perspiciatis, qui pariatur quam voluptatibus sit molestias sapiente natus voluptate a sunt ut suscipit, id voluptatem dolorem.</p>
+                    <p className='text-base lg:text-lg'>I am a Full Stack developer with a robust track record in crafting dynamic websites and sophisticated web applications. My expertise lies in harnessing the power of cutting-edge technologies, particularly JavaScript, to architect seamless digital experiences. Proficient in advanced frameworks such as React.js for frontend development, coupled with Node.js and Express.js on the backend, I thrive in building scalable and efficient systems. I also have experience working with React Native and Next.js. My role is working at the forefront of new technology, solving the challenges that impact both the front-end and back-end architecture, and ultimately, delivering amazing global user experiences.</p>
                     <div className='flex flex-row mt-8 flex-wrap'>
                         <TabsButton active={tab === "skills"} selectTab={()=>handleTabChange("skills")} >
                             Skills
