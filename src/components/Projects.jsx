@@ -38,7 +38,7 @@ const projectData = [
 
 const Projects = () => {
   return (
-    <>
+    <div id="projects">
         <h2 className='text-center text-4xl font-bold text-white mt-4 mb-8'>My Projects</h2>   
         <div className='grid md:grid-cols-3 gap-8 md:gap-12'>
             {
@@ -54,7 +54,7 @@ const Projects = () => {
                 )
             }
         </div>
-    </>
+    </div>
   )
 }
 
